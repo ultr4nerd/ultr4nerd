@@ -11,4 +11,7 @@
 <!-- 🎙️ I'm releasing weekly episodes on my podcast ["Un Podcast Junior"](https://anchor.fm/un-podcast-junior)-->
 
 <!--START_SECTION:waka-->
+```text
+No Activity tracked this Week
+```
 <!--END_SECTION:waka-->

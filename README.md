@@ -10,6 +10,10 @@
 - ⚡ Fun fact: I can eat a lot of tacos, like, really a lot. 🌮🌮🌮
 <!-- 🎙️ I'm releasing weekly episodes on my podcast ["Un Podcast Junior"](https://anchor.fm/un-podcast-junior)-->
 
+---
+
+### Coding stats 🔥
+
 <!--START_SECTION:waka-->
 ```text
 JavaScript   1 hr 40 mins    ███████████████████░░░░░░   75.88 % 

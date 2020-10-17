@@ -1,3 +1,5 @@
+![Banner](banner.gif)
+
 ### Hi there 👋
 
 - 🔭 I’m currently working on [Mándamelo](https://www.mandamelo.com.mx/), a tool that allows businesses to receive remote payments using WhatsApp. 🤖🇽

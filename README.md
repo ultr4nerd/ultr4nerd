@@ -18,10 +18,7 @@
 
 <!--START_SECTION:waka-->
 ```text
-Python       2 hrs 53 mins   ███████████████░░░░░░░░░░   59.34 % 
-JavaScript   1 hr 18 mins    ██████▓░░░░░░░░░░░░░░░░░░   26.73 % 
-Text         22 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.82 % 
-Git Config   13 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.63 % 
-Other        3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.21 % 
+JavaScript   1 hr 17 mins    █████████████▒░░░░░░░░░░░   53.29 % 
+Python       1 hr 7 mins     ███████████▓░░░░░░░░░░░░░   46.53 % 
 ```
 <!--END_SECTION:waka-->

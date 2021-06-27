@@ -17,10 +17,10 @@
 
 <!--START_SECTION:waka-->
 ```text
-JavaScript   4 hrs 35 mins   ████████████▓░░░░░░░░░░░░   50.43 % 
-Vue.js       3 hrs 23 mins   █████████▒░░░░░░░░░░░░░░░   37.23 % 
-TypeScript   31 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.74 % 
-GraphQL      15 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.85 % 
-Other        7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.35 % 
+JavaScript   4 hrs 13 mins   █████████░░░░░░░░░░░░░░░░   36.14 % 
+TypeScript   3 hrs 55 mins   ████████▒░░░░░░░░░░░░░░░░   33.61 % 
+Vue.js       2 hrs 56 mins   ██████▒░░░░░░░░░░░░░░░░░░   25.23 % 
+GraphQL      15 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.22 % 
+Git Config   7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.01 % 
 ```
 <!--END_SECTION:waka-->

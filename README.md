@@ -2,7 +2,7 @@
 
 ### ¡Hola! 🤓
 
-- 🔭 I’m currently working at @cornershop as Backend Engineer. 🥑
+- 🔭 I’m currently working at [Cornershop by Uber](https://cornershopapp.com) as Backend Engineer. 🥑
 - 🌱 I’m currently learning Elixir, Phoenix and Software Architecture.
 - 👯 I’m looking to collaborate on events with GitHub Campus Experts and GDG's
 - 🤔 I’m looking for help with calculus

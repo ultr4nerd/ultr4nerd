@@ -17,10 +17,6 @@
 
 <!--START_SECTION:waka-->
 ```text
-Vue.js       1 hr 22 mins    █████████▒░░░░░░░░░░░░░░░   37.33 % 
-Python       1 hr 18 mins    █████████░░░░░░░░░░░░░░░░   35.61 % 
-JavaScript   30 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.90 % 
-HTML         24 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   11.23 % 
-CSS          1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.89 % 
+No Activity tracked this Week
 ```
 <!--END_SECTION:waka-->

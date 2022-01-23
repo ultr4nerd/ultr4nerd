@@ -17,10 +17,6 @@
 
 <!--START_SECTION:waka-->
 ```text
-Python           2 hrs 56 mins   █████████████▒░░░░░░░░░░░   53.52 % 
-HTML             2 hrs 3 mins    █████████▒░░░░░░░░░░░░░░░   37.61 % 
-JavaScript       17 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.23 % 
-Text             7 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.32 % 
-GitIgnore file   3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.00 % 
+JavaScript   17 mins         ███████████████████████▒░   93.40 % 
 ```
 <!--END_SECTION:waka-->

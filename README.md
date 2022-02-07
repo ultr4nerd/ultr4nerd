@@ -17,6 +17,10 @@
 
 <!--START_SECTION:waka-->
 ```text
-No Activity tracked this Week
+JavaScript       2 hrs 31 mins   █████████████████████▒░░░   85.72 % 
+GitIgnore file   8 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.63 % 
+.env file        7 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.00 % 
+JSON             4 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.46 % 
+Bash             3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.83 % 
 ```
 <!--END_SECTION:waka-->

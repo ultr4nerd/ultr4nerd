@@ -18,9 +18,7 @@
 <!--START_SECTION:waka-->
 
 ```text
-Python           23 mins         ███████████████████████▒░   93.02 %
-SQL              1 min           █░░░░░░░░░░░░░░░░░░░░░░░░   04.38 %
-GitIgnore file   0 secs          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.61 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->

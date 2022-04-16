@@ -17,12 +17,7 @@
 <!--START_SECTION:waka-->
 
 ```text
-Python             4 hrs 30 mins   ████████████████████▓░░░░   82.91 %
-HTML               19 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.09 %
-Text               13 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.02 %
-GitIgnore file     10 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.21 %
-Markdown           4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.32 %
-requirements.txt   3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.20 %
+Python   2 hrs 15 mins   █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->

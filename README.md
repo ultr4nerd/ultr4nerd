@@ -2,7 +2,7 @@
 
 ### ¡Hola! 🤓
 
-- 🔭 I’m currently working at [Cornershop by Uber](https://cornershopapp.com) as Backend Engineer. 🥑
+- 🔭 I’m currently working at [Uber](https://uber.com) as Backend Engineer. 🚗
 - 🌱 I’m currently learning Game Development with Unity.
 - 👯 I’m looking to collaborate with GitHub Campus Experts, GDG's and other friendly communities.
 - 🤔 I’m looking for help with Game Development and Design.

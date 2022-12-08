@@ -17,12 +17,7 @@
 <!--START_SECTION:waka-->
 
 ```text
-Python           1 hr            ████████████░░░░░░░░░░░░░   48.59 %
-JSON             34 mins         ███████░░░░░░░░░░░░░░░░░░   27.43 %
-JavaScript       24 mins         ████▓░░░░░░░░░░░░░░░░░░░░   19.27 %
-Text             5 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.20 %
-GitIgnore file   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.21 %
-.env file        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.21 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->

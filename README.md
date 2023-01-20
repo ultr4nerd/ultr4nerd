@@ -17,12 +17,7 @@
 <!--START_SECTION:waka-->
 
 ```text
-Python             16 mins         ██████████████████▓░░░░░░   75.03 %
-Text               3 mins          ████▒░░░░░░░░░░░░░░░░░░░░   16.73 %
-requirements.txt   1 min           ██░░░░░░░░░░░░░░░░░░░░░░░   08.19 %
-Markdown           0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
-GitIgnore file     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
-HTML               0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->

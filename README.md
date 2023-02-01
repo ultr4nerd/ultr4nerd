@@ -17,8 +17,10 @@
 <!--START_SECTION:waka-->
 
 ```text
-Locale   0 secs          ███████████████████▓░░░░░   78.60 %
-Python   0 secs          █████▒░░░░░░░░░░░░░░░░░░░   21.40 %
+Python            27 mins         ████████████▓░░░░░░░░░░░░   51.13 %
+Locale            16 mins         ███████▓░░░░░░░░░░░░░░░░░   31.03 %
+Gettext Catalog   9 mins          ████▒░░░░░░░░░░░░░░░░░░░░   17.64 %
+JavaScript        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.20 %
 ```
 
 <!--END_SECTION:waka-->

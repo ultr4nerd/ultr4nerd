@@ -17,12 +17,10 @@
 <!--START_SECTION:waka-->
 
 ```text
-Python             56 mins         ████████████████████████▓   98.49 %
-Locale             0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.12 %
-Gettext Catalog    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.31 %
-Jupyter            0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 %
-JavaScript         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
+Python             49 mins         █████████████████████████   99.90 %
+Jupyter            0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 %
 requirements.txt   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
+PythonStub         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
 ```
 
 <!--END_SECTION:waka-->

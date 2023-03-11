@@ -17,11 +17,10 @@
 <!--START_SECTION:waka-->
 
 ```text
-Python            3 hrs 55 mins   ████████████████████████▓   98.01 %
-Locale            4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.87 %
-Gettext Catalog   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 %
-Jupyter           0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
-PythonStub        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
+Python            3 hrs 27 mins   ████████████████████████▒   97.77 %
+Locale            4 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.12 %
+Gettext Catalog   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 %
+Jupyter           0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
 ```
 
 <!--END_SECTION:waka-->

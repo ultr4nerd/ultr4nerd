@@ -17,12 +17,12 @@
 <!--START_SECTION:waka-->
 
 ```text
-Python             5 hrs 48 mins   ██████████████████▓░░░░░░   74.14 %
-HTML               1 hr 7 mins     ███▓░░░░░░░░░░░░░░░░░░░░░   14.31 %
-JavaScript         36 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.67 %
-Locale             5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.22 %
-IDEA_MODULE        5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.07 %
-textmate           2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.48 %
+Python             7 hrs 28 mins   █████████████████░░░░░░░░   67.78 %
+HTML               2 hrs 21 mins   █████▒░░░░░░░░░░░░░░░░░░░   21.32 %
+JavaScript         36 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.45 %
+Shell Script       12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.87 %
+requirements.txt   5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.91 %
+IDEA_MODULE        5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.76 %
 ```
 
 <!--END_SECTION:waka-->

@@ -17,12 +17,7 @@
 <!--START_SECTION:waka-->
 
 ```text
-YAML               2 hrs 31 mins   ██████████████░░░░░░░░░░░   55.77 %
-Python             1 hr 17 mins    ███████░░░░░░░░░░░░░░░░░░   28.64 %
-requirements.txt   14 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.33 %
-GitIgnore file     13 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.85 %
-HTML               12 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.41 %
-Text               2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.99 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->

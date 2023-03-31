@@ -17,7 +17,12 @@
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+Python             3 hrs 27 mins   ████████████████████████▓   98.63 %
+Locale             1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.61 %
+HTML               0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.36 %
+JSON               0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 %
+JavaScript         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 %
+YAML               0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 %
 ```
 
 <!--END_SECTION:waka-->

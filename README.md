@@ -2,7 +2,7 @@
 
 ### ¡Hola! 🤓
 
-- 🔭 I’m currently working at [Uber](https://uber.com) as Software Engineer. 🚗
+- 🔭 I’m currently looking for a job. 🔍
 - 🌱 I’m currently learning about management.
 - 👯 I’m looking to collaborate with GitHub Campus Experts, GDG's and other friendly communities.
 - 🤔 I’m looking for help with Management.

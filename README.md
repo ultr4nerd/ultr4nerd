@@ -2,8 +2,8 @@
 
 ### ¡Hola! 🤓
 
-- 🔭 I’m currently looking for a job. 🔍
-- 🌱 I’m currently learning about management.
+- 🔭 I’m currently working at [Eva](https://evacenter.com/). 🔍
+- 🌱 I’m currently learning about infrastructure.
 - 👯 I’m looking to collaborate with GitHub Campus Experts, GDG's and other friendly communities.
 - 🤔 I’m looking for help with Management.
 - 💬 Ask me about Backend Engineering and Computer Science.

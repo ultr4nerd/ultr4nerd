@@ -17,11 +17,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-YAML             5 hrs 35 mins   ██████▒░░░░░░░░░░░░░░░░░░   25.79 %
-Python           5 hrs 4 mins    ██████░░░░░░░░░░░░░░░░░░░   23.40 %
-TypeScript       3 hrs 42 mins   ████▒░░░░░░░░░░░░░░░░░░░░   17.06 %
-Makefile         1 hr 24 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.51 %
-JavaScript       1 hr 20 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.21 %
+YAML             9 hrs 21 mins   ████████▓░░░░░░░░░░░░░░░░   34.30 %
+Python           5 hrs 4 mins    ████▓░░░░░░░░░░░░░░░░░░░░   18.63 %
+TypeScript       3 hrs 43 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.69 %
+JavaScript       1 hr 48 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.62 %
+Makefile         1 hr 37 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.95 %
 ```
 
 <!--END_SECTION:waka-->

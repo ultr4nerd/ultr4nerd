@@ -1,5 +1,4 @@
 ![Banner](banner.gif)
-https://edenmed.com/
 ### ¡Hola! 🤓
 
 - 🔭 I’m currently working at [Eden](https://edenmed.com/). 🔍

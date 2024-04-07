@@ -16,11 +16,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Python     32 mins         ███████████████████▒░░░░░   77.75 %
-textmate   4 mins          ██▓░░░░░░░░░░░░░░░░░░░░░░   10.73 %
-Text       2 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   07.06 %
-YAML       0 secs          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.33 %
-Markdown   0 secs          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.10 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->

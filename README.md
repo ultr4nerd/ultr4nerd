@@ -16,7 +16,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+YAML         24 mins         ██████████▒░░░░░░░░░░░░░░   40.84 %
+Markdown     13 mins         █████▓░░░░░░░░░░░░░░░░░░░   22.96 %
+Makefile     10 mins         ████▓░░░░░░░░░░░░░░░░░░░░   18.30 %
+Bash         8 mins          ███▒░░░░░░░░░░░░░░░░░░░░░   13.68 %
+Other        1 min           ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.61 %
 ```
 
 <!--END_SECTION:waka-->

@@ -16,8 +16,8 @@
 <!--START_SECTION:waka-->
 
 ```txt
-TypeScript   1 hr 1 min      ███████████████████░░░░░░   75.96 %
-GraphQL      19 mins         ██████░░░░░░░░░░░░░░░░░░░   24.04 %
+TypeScript   1 hr 41 mins    █████████████████████░░░░   83.82 %
+GraphQL      19 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.18 %
 ```
 
 <!--END_SECTION:waka-->

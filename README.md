@@ -16,7 +16,8 @@
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+Text   10 mins         █████████████▓░░░░░░░░░░░   54.27 %
+XML    8 mins          ███████████▒░░░░░░░░░░░░░   45.73 %
 ```
 
 <!--END_SECTION:waka-->

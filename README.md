@@ -1,7 +1,7 @@
 ![Banner](banner.gif)
 ### ¡Hola! 🤓
 
-* 🔭 I’m currently working at [Petco](https://www.petco.com) 🐶 as a Software Engineer.
+* 🔭 I’m currently working at [Petco](https://www.petco.com) 🐶 as a Senior Software Engineer.
 * 🤖 I’m diving deep into AI Engineering — learning about agents, LLMs, and how to build smarter systems.
 * 🌱 Always exploring new ways to apply AI to real-world problems.
 * 👯 I’m open to collaborating with other AI enthusiasts, GitHub Campus Experts, GDGs, and welcoming tech communities.

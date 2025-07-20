@@ -17,11 +17,10 @@
 <!--START_SECTION:waka-->
 
 ```txt
-JavaScript      4 hrs 3 mins    ██████████████████▒░░░░░░   73.53 %
-GraphQL         1 hr 18 mins    ██████░░░░░░░░░░░░░░░░░░░   23.86 %
-JSON            6 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.03 %
-Other           1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.50 %
-Jest Snapshot   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 %
+JavaScript      2 hrs 17 mins   █████████████████████████   99.77 %
+Jest Snapshot   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.14 %
+JSON            0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
+TypeScript      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 %
 ```
 
 <!--END_SECTION:waka-->

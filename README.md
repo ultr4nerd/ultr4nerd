@@ -17,7 +17,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+Python       1 hr 58 mins    ███████████████░░░░░░░░░░   59.79 %
+Other        29 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.74 %
+HCL          19 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.97 %
+Terraform    11 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.71 %
+YAML         8 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.14 %
 ```
 
 <!--END_SECTION:waka-->

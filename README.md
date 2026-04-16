@@ -1,8 +1,6 @@
 <div align="center">
 
-![Banner](banner.gif)
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Forward+Deployed+Software+Engineer+%40+TurboAI;AI-powered+dev+workflow+enthusiast;Building+agents+that+solve+real+problems;DJ+%2F+Game+preservation+nerd+%F0%9F%8E%AE)](https://git.io/typing-svg)
+![Banner](banner.svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ultr4nerd)
 [![Website](https://img.shields.io/badge/mauriciochavez.dev-000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mauriciochavez.dev)

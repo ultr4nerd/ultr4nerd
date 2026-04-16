@@ -14,7 +14,7 @@
 
 ### About me
 
-I'm **Mauricio** -- a Forward Deployed Software Engineer at [TurboAI](https://turbotime.io/) based in Mexico City. I build AI-powered systems and work alongside autonomous agents to ship software for startups.
+I'm **Mauricio** -- a Forward Deployed Software Engineer at [TurboAI](https://turbotime.io/) based in Queretaro, Mexico. I build AI-powered systems and work alongside autonomous agents to ship software for startups.
 
 I'm obsessed with AI-augmented development. My daily workflow runs on **Claude Code** and I've built two versions of [OpenClaw](https://github.com/ultr4nerd) -- an AI-powered tool that supercharges how I work. I genuinely believe the future of software engineering is humans and AI building together, and I'm already living it.
 

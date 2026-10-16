@@ -14,6 +14,8 @@ permissions:
 jobs:
   render:
     runs-on: ubuntu-latest
+    env:
+      HAS_SPOTIFY: ${{ secrets.SPOTIFY_REFRESH_TOKEN != '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -29,7 +31,7 @@ jobs:
         run: python scripts/fetch_stats.py
 
       - name: Fetch now playing (Spotify)
-        if: ${{ secrets.SPOTIFY_REFRESH_TOKEN != '' }}
+        if: ${{ env.HAS_SPOTIFY == 'true' }}
         continue-on-error: true
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}

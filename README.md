@@ -22,6 +22,8 @@ Outside of code, I'm a **DJ** who loves mixing music and a **video game preserva
 
 <img src="assets/eq.svg" width="100%" alt="Contributions over the last 52 weeks, drawn as a spectrum analyzer">
 
+<img src="assets/now.svg" width="100%" alt="Now spinning: what I am listening to on Spotify">
+
 </div>
 
 ### Save slots

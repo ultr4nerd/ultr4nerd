@@ -14,6 +14,8 @@ from xml.sax.saxutils import escape
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
 STATS = json.loads((ROOT / "data" / "stats.json").read_text())
+NOW_PATH = ROOT / "data" / "now_playing.json"
+NOW = json.loads(NOW_PATH.read_text()) if NOW_PATH.exists() else {"track": None}
 
 BG, INK, DIM = "#050308", "#cfc3ff", "#5a4f86"
 ACID, VIOLET, PINK = "#b8ff4a", "#9d5cff", "#ff5fd2"
@@ -272,7 +274,79 @@ def cartridge(repo: dict, slot: int) -> str:
     return svg(W, H, f'<g style="animation:insert .5s cubic-bezier(.2,.9,.3,1) {slot * 0.12:.2f}s both">{"".join(body)}</g>', css, label=f"{name} — {repo.get('description') or ''}")
 
 
+# --------------------------------------------------------------------------- now spinning
+def now_spinning() -> str:
+    W, H = 900, 120
+    t = NOW.get("track")
+    cx, cy, r = 62, H / 2, 44
+    body = [frame(W, H)]
+    # vinyl: grooves + label, cover dithered inside the label when we have one
+    grooves = "".join(f'<circle cx="{cx}" cy="{cy}" r="{r - 6 - i * 5}" fill="none" stroke="{INK}" stroke-width="1" opacity="{.25 + .1 * (i % 2)}"/>' for i in range(5))
+    label = (f'<mask id="cm"><image href="data:image/png;base64,{t["cover_1bit"]}" x="{cx - 20}" y="{cy - 20}" width="40" height="40"/></mask>'
+             f'<circle cx="{cx}" cy="{cy}" r="19" fill="{BG}"/><rect x="{cx - 20}" y="{cy - 20}" width="40" height="40" fill="{PINK}" mask="url(#cm)" clip-path="url(#lc)"/>'
+             if t and t.get("cover_1bit") else f'<circle cx="{cx}" cy="{cy}" r="19" fill="{VIOLET}"/>')
+    spin = 'style="transform-origin:%dpx %dpx;animation:spin 2.4s linear infinite"' % (cx, cy) if t and t["is_playing"] else ""
+    body.append(f'<clipPath id="lc"><circle cx="{cx}" cy="{cy}" r="19"/></clipPath>'
+                f'<g {spin}><circle cx="{cx}" cy="{cy}" r="{r}" fill="{BG}" stroke="{INK}" stroke-width="2"/>{grooves}{label}'
+                f'<circle cx="{cx}" cy="{cy}" r="2.5" fill="{BG}" stroke="{INK}"/></g>')
+    # tonearm
+    body.append(f'<g style="transform-origin:{cx + r + 14}px {cy - r + 4}px;animation:arm 2.4s ease-in-out infinite alternate">'
+                f'<line x1="{cx + r + 14}" y1="{cy - r + 4}" x2="{cx + 22}" y2="{cy - 10}" stroke="{INK}" stroke-width="3"/>'
+                f'<circle cx="{cx + r + 14}" cy="{cy - r + 4}" r="5" fill="{BG}" stroke="{INK}" stroke-width="2"/></g>'
+                if t and t["is_playing"] else
+                f'<line x1="{cx + r + 14}" y1="{cy - r + 4}" x2="{cx + r + 2}" y2="{cy - r + 26}" stroke="{INK}" stroke-width="3" opacity=".6"/>'
+                f'<circle cx="{cx + r + 14}" cy="{cy - r + 4}" r="5" fill="{BG}" stroke="{INK}" stroke-width="2"/>')
+    x0 = 150
+    if not t:
+        body.append(f'<text x="{x0}" y="52" class="h" font-size="26" {reveal(0.2)}>Decks are cold</text>')
+        body.append(f'<text x="{x0}" y="82" class="m dim" font-size="17" {reveal(0.4)}>nothing spinning right now</text>')
+    else:
+        if t["is_playing"]:
+            status = "Now spinning"
+        else:
+            then = dt.datetime.fromisoformat(t["played_at"].replace("Z", "+00:00")) if t.get("played_at") else None
+            fetched = dt.datetime.fromisoformat(NOW["fetched_at"])
+            ago = ""
+            if then:
+                mins = int((fetched - then).total_seconds() // 60)
+                ago = f" · {mins}m ago" if mins < 60 else f" · {mins // 60}h ago" if mins < 48 * 60 else f" · {mins // 1440}d ago"
+            status = f"Last spun{ago}"
+        body.append(f'<text x="{x0}" y="42" class="h" font-size="26" {reveal(0.2)}>{escape(status)}</text>')
+        title = f'{t["title"]}  —  {t["artist"]}'
+        size = 21
+        width = len(title) * size * MONO_ADV
+        avail = W - x0 - 150
+        if width > avail:  # marquee: slide the line left and wrap around
+            gap = 60
+            body.append(f'<clipPath id="mq"><rect x="{x0}" y="54" width="{avail}" height="30"/></clipPath>'
+                        f'<g clip-path="url(#mq)"><g style="animation:marquee {max(8, width / 40):.0f}s linear infinite">'
+                        f'<text x="{x0}" y="76" class="m" font-size="{size}">{escape(title)}</text>'
+                        f'<text x="{x0 + width + gap:.0f}" y="76" class="m" font-size="{size}">{escape(title)}</text></g></g>')
+            extra = f"@keyframes marquee{{to{{transform:translateX(-{width + gap:.0f}px)}}}}"
+        else:
+            body.append(f'<text x="{x0}" y="76" class="m" font-size="{size}" {reveal(0.4)}>{escape(title)}</text>')
+            extra = ""
+        body.append(f'<text x="{x0}" y="100" class="m dim" font-size="16" {reveal(0.6)}>{escape(t["album"])}</text>')
+        # level meter on the right, bouncing only while playing
+        rng = random.Random(3)
+        bars = []
+        for i in range(10):
+            h = rng.randint(8, 44)
+            x = W - 140 + i * 11
+            anim = f'style="transform-origin:{x + 4}px {cy + 24}px;animation:bounce {rng.uniform(.5, 1.1):.2f}s ease-in-out {rng.uniform(0, .6):.2f}s infinite alternate;--a:{rng.uniform(.3, .7):.2f}"' if t["is_playing"] else 'opacity=".25"'
+            bars.append(f'<rect x="{x}" y="{cy + 24 - h}" width="8" height="{h}" fill="url(#meter2)" {anim}/>')
+        body.append("".join(bars) + f'<rect x="{W - 142}" y="{cy - 24}" width="114" height="50" fill="url(#rows2)"/>')
+        body.append(f'<text x="{W - 24}" y="{H - 14}" class="s" font-size="7" fill="{ACID}" text-anchor="end">SPOTIFY</text>')
+    css = ("@keyframes spin{to{transform:rotate(360deg)}}@keyframes arm{from{transform:rotate(-2deg)}to{transform:rotate(2deg)}}"
+           "@keyframes bounce{from{transform:scaleY(1)}to{transform:scaleY(var(--a))}}" + (extra if t else ""))
+    defs = (f'<linearGradient id="meter2" x1="0" y1="{cy + 24}" x2="0" y2="{cy - 24}" gradientUnits="userSpaceOnUse">'
+            f'<stop offset="0" stop-color="{VIOLET}"/><stop offset=".6" stop-color="{ACID}"/><stop offset="1" stop-color="{PINK}"/></linearGradient>'
+            f'<pattern id="rows2" width="4" height="4" patternUnits="userSpaceOnUse"><rect y="2" width="4" height="2" fill="{BG}"/></pattern>')
+    return svg(W, H, f"<defs>{defs}</defs>" + "".join(body), css, label="Now spinning")
+
+
 def main() -> None:
+    (ASSETS / "now.svg").write_text(now_spinning())
     (ASSETS / "sheet.svg").write_text(character_sheet())
     (ASSETS / "eq.svg").write_text(equalizer())
     for old in ASSETS.glob("cart-*.svg"):

@@ -1,6 +1,6 @@
 {
   "login": "ultr4nerd",
-  "featured": ["yt-summary", "claude-code-django-expert", "openpyxl-image-loader", "alfred-dispatch"],
+  "featured": ["yt-summary", "claude-code-django-expert", "openpyxl-image-loader", "pana-tricks"],
   "language_months": 24,
   "language_count": 6,
   "ignore_languages": ["HTML", "CSS", "Makefile", "Dockerfile", "Shell", "Just", "Procfile", "Batchfile"]

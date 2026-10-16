@@ -345,7 +345,21 @@ def now_spinning() -> str:
     return svg(W, H, f"<defs>{defs}</defs>" + "".join(body), css, label="Now spinning")
 
 
+def update_readme_cartridges() -> None:
+    """keep the README's cartridge links in sync with data/config.json (a repo going private drops out)"""
+    readme = ROOT / "README.md"
+    text = readme.read_text()
+    start, end = "<!-- cartridges:start -->", "<!-- cartridges:end -->"
+    links = "\n".join(
+        f'<a href="{r["url"]}"><img src="assets/cart-{r["name"]}.svg" width="200" alt="{escape(r["name"])}"></a>'
+        for r in STATS["featured"]
+    )
+    a, b = text.index(start) + len(start), text.index(end)
+    readme.write_text(text[:a] + "\n" + links + "\n" + text[b:])
+
+
 def main() -> None:
+    update_readme_cartridges()
     (ASSETS / "now.svg").write_text(now_spinning())
     (ASSETS / "sheet.svg").write_text(character_sheet())
     (ASSETS / "eq.svg").write_text(equalizer())

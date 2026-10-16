@@ -34,7 +34,7 @@ Outside of code, I'm a **DJ** who loves mixing music and a **video game preserva
 <a href="https://github.com/ultr4nerd/yt-summary"><img src="assets/cart-yt-summary.svg" width="200" alt="yt-summary"></a>
 <a href="https://github.com/ultr4nerd/claude-code-django-expert"><img src="assets/cart-claude-code-django-expert.svg" width="200" alt="claude-code-django-expert"></a>
 <a href="https://github.com/ultr4nerd/openpyxl-image-loader"><img src="assets/cart-openpyxl-image-loader.svg" width="200" alt="openpyxl-image-loader"></a>
-<a href="https://github.com/ultr4nerd/pana-tricks"><img src="assets/cart-pana-tricks.svg" width="200" alt="pana-tricks"></a>
+<a href="https://github.com/ultr4nerd/pokedex-phoenix"><img src="assets/cart-pokedex-phoenix.svg" width="200" alt="pokedex-phoenix"></a>
 <!-- cartridges:end -->
 
 </div>

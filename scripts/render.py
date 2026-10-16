@@ -159,7 +159,7 @@ def character_sheet() -> str:
         y += 36
     y += 10
     body.append(f'<text x="{x1}" y="{y + 10}" class="h" font-size="26" {reveal(1.7)}>Spellbook</text>')
-    spells = [("Claude Code", "weapon"), ("Django", "armor"), ("Agents", "familiar · Alfred"), ("Vinyl + CDJs", "off-hand")]
+    spells = [("Claude Code", "weapon"), ("Pi", "sidearm"), ("Pana · Alfred", "familiar"), ("Vinyl + CDJs", "off-hand")]
     y += 44
     for i, (s, slot) in enumerate(spells):
         body.append(f'<g {reveal(1.85 + i * d)}><text x="{x1}" y="{y}" class="m" font-size="17">{s}</text>'

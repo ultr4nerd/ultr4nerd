@@ -1,4 +1,12 @@
 {
- "fetched_at": "2026-10-16T18:20:00+00:00",
- "track": null
+ "fetched_at": "2026-10-16T18:16:44+00:00",
+ "track": {
+  "title": "Echoes",
+  "artist": "Pink Floyd",
+  "album": "Meddle",
+  "url": "https://open.spotify.com/track/7kriFJLY2KOhw5en9iI2jb",
+  "is_playing": false,
+  "played_at": "2026-10-16T16:06:47.961Z",
+  "cover_1bit": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACAAQAAAADrRVxmAAABSElEQVR42sWUwWnEMBBF3+Zf1UpgQFuACki5KUAFODDF6LiCHCQ7sJHsoD1kLgJ7+DzN/5rbBgbghgO88VS3+PThd8d22XGpwfbYHttjr237J46mYd6nMteoHi84SgoZQHWm8QUIsJGGOVASNKKJRnWAeM7RNQYdwsDrGUc7711i0GECKo6BqpZ8gYhD1Qve0kFaLXEAiuoF0updDoyXOGjj0CKHedw5PC7OFB13ka1qYMAR1LlGIs81UN0xfJWDtuTiLGMdINHOkS97RcU48aWEEiiE2XvxSw5ImQSn8+jxAsPH80i5hBJO5/GDwVTj4y8c7UYjjRKgQDCfabQ/WMv7yJfPcN/2fXrmixSlqDj2pVky4zA3vJkz5ciJTMqnGTt8Yfm9AJj6NpzmI19qoHf5nGPPxmx/4BiqIOriHlNfYDJJ9vu9fAPhrXxB4vXRogAAAABJRU5ErkJggg=="
+ }
 }

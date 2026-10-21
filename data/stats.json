@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T22:22:53+00:00",
+ "generated_at": "2026-10-21T01:41:10+00:00",
  "user": {
   "login": "ultr4nerd",
   "name": "Mauricio Chavez",
@@ -7,30 +7,26 @@
   "followers": 176
  },
  "totals": {
-  "contributions_all_time": 4843,
-  "contributions_12mo": 2241,
-  "commits_12mo": 59,
+  "contributions_all_time": 4867,
+  "contributions_12mo": 2265,
+  "commits_12mo": 60,
   "prs_12mo": 2,
   "reviews_12mo": 0,
-  "private_12mo": 2173,
+  "private_12mo": 2196,
   "stars": 51,
   "repos": 96,
   "repos_public": 96
  },
  "streak": {
-  "current": 23,
-  "current_start": "2026-09-28",
-  "current_end": "2026-10-20",
+  "current": 0,
+  "current_start": null,
+  "current_end": null,
   "longest": 23,
   "longest_start": "2026-09-28",
   "longest_end": "2026-10-20"
  },
  "weeks": [
   [
-   [
-    "2025-10-20",
-    0
-   ],
    [
     "2025-10-21",
     0
@@ -1593,30 +1589,34 @@
    ],
    [
     "2026-10-20",
-    44
+    68
+   ],
+   [
+    "2026-10-21",
+    0
    ]
   ]
  ],
  "best_week": 283,
- "this_week": 97,
+ "this_week": 121,
  "languages": [
   {
    "name": "JavaScript",
    "color": "#f1e05a",
-   "bytes": 317450,
-   "pct": 46.9
+   "bytes": 342348,
+   "pct": 48.8
   },
   {
    "name": "Python",
    "color": "#3572A5",
    "bytes": 247930,
-   "pct": 36.6
+   "pct": 35.3
   },
   {
    "name": "TypeScript",
    "color": "#3178c6",
    "bytes": 107716,
-   "pct": 15.9
+   "pct": 15.4
   },
   {
    "name": "PLpgSQL",

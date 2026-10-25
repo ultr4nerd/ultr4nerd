@@ -1,12 +1,12 @@
 {
- "fetched_at": "2026-10-25T19:44:21+00:00",
+ "fetched_at": "2026-10-25T22:38:29+00:00",
  "track": {
-  "title": "Patrick Millah",
-  "artist": "The Wookies",
-  "album": "Darkoteca",
-  "url": "https://open.spotify.com/track/0tByXYCz0VpyeHZXLnF2Oj",
-  "is_playing": false,
-  "played_at": "2026-10-25T19:12:55.932Z",
-  "cover_1bit": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACAAQAAAADrRVxmAAAB6klEQVR42qWVQYobMRBFn0ezGagwAzlBDjBQQV4aug+Qe+SUgRriTUBGAm9zhYChtQm0qCzsGQKRPODUplrw+fr163f3hksZwAx33FwiCHATx8ZmAFLlLGTIoa8P/yA2UgHEYDtAnFuANuC4P+t4MKi3zvKXH9zsx7kloL6zF9X3bnkVcqsOezvO/+PHG8/NfhhCZbZrOmIc5uPSU2hbpF7Jh3K4xmHzZS/jW/SojXIN4R/GOT3XEsaz3APYww+lVGC2PkfYhRiu58PlMSWQMWIKUePID2OG9ekE+34+NgDh10flYuoA8bsQ2tmQ/rTUrwzffcywvK5pdTdg4Me0xBgXv+LH5Nk9u4GMdGyRKrxA7XOYr+6rr4aNbll0Wvyy3T7Ck7vnbGM/toepSv35abyXRNBWwvN+HrmuBGPm21Nfh4BJdve8CjZKchSo5bmE1uVYU0ru7tnFuhyRViIGT7t60NLjSJJS9uyPnnLq6wgtIlX2u5d46OqwNSX3vLqbWA8RUNXo331xDX3HEhCBQgufuxwKYZqix4XY3cucqgSFdtQDdb7rftFDnNyXEE/az4evj+bunnOSvtLpJbQIslda6en4YkCkhdJ03+PQgpagILVRuv9bgHAq6IG5inX3ohx3VWzbSi9jfwDeXtmVA9c1wAAAAABJRU5ErkJggg=="
+  "title": "Qué vamos a hacer?",
+  "artist": "LATIN MAFIA",
+  "album": "TODOS LOS DÍAS TODO EL DÍA",
+  "url": "https://open.spotify.com/track/3fj2pxc3UWQ6rvaYKE3eWf",
+  "is_playing": true,
+  "played_at": null,
+  "cover_1bit": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACAAQAAAADrRVxmAAACp0lEQVR42m2VMWssRxCEP7mVPGjY+wEOX3rQ0Bcu3IJTwftr/isGgdMRd2GLXbjIoNCpYI+bcIZzICGBtzcZFoqamqqanocAMBao43mK+hv/+x4MoQsAfcHYIvRE//qrOm0QYAbiLi7uOce/b1VtAWzxV9ttEWKvYn2oi3WEvuVAA437PTSizS0i4dgvOFrpC2K8bhFF6zS8y8u4VJW9vGx3MQxzLw4ifkzOUiYt2OWqVP3j/dITPxBxB0NEXGSLiKIl7qcWpcXc7tuzIKsUcXEXX3G3LWK+D021RajOaOQcgLmMLniSC3NbQyNajBHaomwRfl9B3HCHmyU64t5QHYJQnaPMCcexYAgfjuBbT9vlyrjAoYxnpY5JLoKBgJtZxkEQWkIprbSS+vHBIGKfYrY65v2ly1Vlv0j31wSB38UExMxXd8lyaS20MDfVkUh7yp4FvC8gXZKOteWnnkGZTl369Jz5YQZiBqu4J9mGFo0STVVjnCPJBQcXDAZ8Te/telYq46OeuvflkHJ8Bmv4LeMoWqcy0Cf+/jGtGYe4wc1xkUE81VHszPFFqer0ukt0CIZggN/Trmto6EDAoE1bgpDvmuByTHVU9ABR7feCJxNGvmalLTg98YNJ5Up5qlpDskn3GY3xUVdJPdWfu/FPuT6tZyXj8JvfMBME85tlZxE6cCi//prmLul9EQwDP6Vz7CFsxzNoncJYplM2k7l04/K+43iV10zHM1qnoewfy7BnV9JsBZNhRRDY6ngsQ6+MF5QfhQwBR4N7k9XEwTPEEHCPoalGhA5JP+QGjrfP1m51dLQwnn+hhYpalq2Xj3DNMDtuOeLwhv5TnhZ9K1SV9H35Lms+T8/w9Pz0zFSUQ5C9c9+LYdkbhRYN4vPqJHPsY//+JWmD+A9xmC5pMF8t7gAAAABJRU5ErkJggg=="
  }
 }

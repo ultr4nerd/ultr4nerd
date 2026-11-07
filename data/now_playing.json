@@ -1,12 +1,12 @@
 {
- "fetched_at": "2026-11-07T13:15:33+00:00",
+ "fetched_at": "2026-11-07T18:06:15+00:00",
  "track": {
-  "title": "Yo siempre contesto.",
-  "artist": "LATIN MAFIA",
-  "album": "TODOS LOS DÍAS TODO EL DÍA",
-  "url": "https://open.spotify.com/track/1ZunPTRc0PUFfdSWa3qMB1",
-  "is_playing": false,
-  "played_at": "2026-11-07T05:59:29.282Z",
-  "cover_1bit": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACAAQAAAADrRVxmAAACp0lEQVR42m2VMWssRxCEP7mVPGjY+wEOX3rQ0Bcu3IJTwftr/isGgdMRd2GLXbjIoNCpYI+bcIZzICGBtzcZFoqamqqanocAMBao43mK+hv/+x4MoQsAfcHYIvRE//qrOm0QYAbiLi7uOce/b1VtAWzxV9ttEWKvYn2oi3WEvuVAA437PTSizS0i4dgvOFrpC2K8bhFF6zS8y8u4VJW9vGx3MQxzLw4ifkzOUiYt2OWqVP3j/dITPxBxB0NEXGSLiKIl7qcWpcXc7tuzIKsUcXEXX3G3LWK+D021RajOaOQcgLmMLniSC3NbQyNajBHaomwRfl9B3HCHmyU64t5QHYJQnaPMCcexYAgfjuBbT9vlyrjAoYxnpY5JLoKBgJtZxkEQWkIprbSS+vHBIGKfYrY65v2ly1Vlv0j31wSB38UExMxXd8lyaS20MDfVkUh7yp4FvC8gXZKOteWnnkGZTl369Jz5YQZiBqu4J9mGFo0STVVjnCPJBQcXDAZ8Te/telYq46OeuvflkHJ8Bmv4LeMoWqcy0Cf+/jGtGYe4wc1xkUE81VHszPFFqer0ukt0CIZggN/Trmto6EDAoE1bgpDvmuByTHVU9ABR7feCJxNGvmalLTg98YNJ5Up5qlpDskn3GY3xUVdJPdWfu/FPuT6tZyXj8JvfMBME85tlZxE6cCi//prmLul9EQwDP6Vz7CFsxzNoncJYplM2k7l04/K+43iV10zHM1qnoewfy7BnV9JsBZNhRRDY6ngsQ6+MF5QfhQwBR4N7k9XEwTPEEHCPoalGhA5JP+QGjrfP1m51dLQwnn+hhYpalq2Xj3DNMDtuOeLwhv5TnhZ9K1SV9H35Lms+T8/w9Pz0zFSUQ5C9c9+LYdkbhRYN4vPqJHPsY//+JWmD+A9xmC5pMF8t7gAAAABJRU5ErkJggg=="
+  "title": "Andrea",
+  "artist": "Bad Bunny, Buscabulla",
+  "album": "Un Verano Sin Ti",
+  "url": "https://open.spotify.com/track/44XjoNvtwevktFKjvVe1vH",
+  "is_playing": true,
+  "played_at": null,
+  "cover_1bit": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACAAQAAAADrRVxmAAACK0lEQVR42oWVQYrcQAxFX0dZFnQg52gQ1HagDXOAOWsOEHCYbRUW9DaHmOBalqgs3E0glnu8sRfi8VT6Kp8GALjc31/4/1nXdV3HmvOa8zrWvKs4DTDFb0pFtMq+4tqA1EgNgBQycBAcgD3ja2MCYL6/QkYlY6AAHHhsCgAt9sDlcSAeeEyUltr0MAkYpgCGVhAPKvLjJMDQiNHlfhBugIaMx+PiEjEWNRRTKtmNA0aiQc3gN91Pvy99jDFGL2OMXnrIKG1inphhCnsx0SpoFQXq014gtYBB76P03nu52xwzXGZS89d9RZGLCQ4ZwG9PPdLMtM8Ho5feyzJG2Uz2jHUCN/nwb1znMGMFNZjeHV4/OJrLlh3khXi2jm3folEFOa+PdmQdYw16Gb2kVFJKaRljlOcemsJ9cbB7xUUO9uUfI+yl31x82+p3j3b/lMH8WbenzuM4yLjluBffavIc5nRxYGKeZjL1aC5UAHmhxVm/f00ruGmUD5dNJBfatL/HKKX0pZeUzn2MsozIw7lpheufM40SZQyyY6hlKvko627bNswpZgATKwaXaC6mphvjd1NSnHWVX6mdL5ZxOfL4+d0zLsxTMBcuhvx5+/E2o+Y59MC0yuV2dPMvrgYttbMC1COPKhfLhwzxLSDv+oRREeeI0QGjAVdwOcqYm1xuOk8ho0CuIJ5N3eST+zT0oC996b2MZfTey+ifMeK5uDjkmjEX9CAfdv8dRx5/AaN6RCj0uy84AAAAAElFTkSuQmCC"
  }
 }

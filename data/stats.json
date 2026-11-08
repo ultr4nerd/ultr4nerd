@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T21:58:29+00:00",
+ "generated_at": "2026-11-08T01:29:24+00:00",
  "user": {
   "login": "ultr4nerd",
   "name": "Mauricio Chavez",
@@ -18,24 +18,14 @@
   "repos_public": 96
  },
  "streak": {
-  "current": 6,
-  "current_start": "2026-11-02",
-  "current_end": "2026-11-07",
+  "current": 0,
+  "current_start": null,
+  "current_end": null,
   "longest": 26,
   "longest_start": "2026-09-28",
   "longest_end": "2026-10-23"
  },
  "weeks": [
-  [
-   [
-    "2025-11-07",
-    0
-   ],
-   [
-    "2025-11-08",
-    0
-   ]
-  ],
   [
    [
     "2025-11-09",
@@ -1595,10 +1585,16 @@
     "2026-11-07",
     2
    ]
+  ],
+  [
+   [
+    "2026-11-08",
+    0
+   ]
   ]
  ],
  "best_week": 374,
- "this_week": 118,
+ "this_week": 0,
  "languages": [
   {
    "name": "JavaScript",

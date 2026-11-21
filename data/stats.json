@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T11:22:00+00:00",
+ "generated_at": "2026-11-21T19:26:54+00:00",
  "user": {
   "login": "ultr4nerd",
   "name": "Mauricio Chavez",
@@ -7,20 +7,20 @@
   "followers": 176
  },
  "totals": {
-  "contributions_all_time": 5767,
-  "contributions_12mo": 3165,
-  "commits_12mo": 119,
-  "prs_12mo": 28,
+  "contributions_all_time": 5867,
+  "contributions_12mo": 3265,
+  "commits_12mo": 180,
+  "prs_12mo": 59,
   "reviews_12mo": 0,
-  "private_12mo": 3010,
+  "private_12mo": 3017,
   "stars": 51,
-  "repos": 97,
-  "repos_public": 97
+  "repos": 98,
+  "repos_public": 98
  },
  "streak": {
-  "current": 0,
-  "current_start": null,
-  "current_end": null,
+  "current": 13,
+  "current_start": "2026-11-09",
+  "current_end": "2026-11-21",
   "longest": 26,
   "longest_start": "2026-09-28",
   "longest_end": "2026-10-23"
@@ -1593,47 +1593,47 @@
    ],
    [
     "2026-11-21",
-    0
+    100
    ]
   ]
  ],
  "best_week": 369,
- "this_week": 129,
+ "this_week": 229,
  "languages": [
   {
    "name": "JavaScript",
    "color": "#f1e05a",
-   "bytes": 361005,
-   "pct": 37.3
+   "bytes": 589709,
+   "pct": 36.8
+  },
+  {
+   "name": "TypeScript",
+   "color": "#3178c6",
+   "bytes": 475142,
+   "pct": 29.7
   },
   {
    "name": "Python",
    "color": "#3572A5",
    "bytes": 249223,
-   "pct": 25.8
+   "pct": 15.6
   },
   {
    "name": "Swift",
    "color": "#F05138",
    "bytes": 246050,
-   "pct": 25.5
+   "pct": 15.4
   },
   {
-   "name": "TypeScript",
-   "color": "#3178c6",
-   "bytes": 107716,
-   "pct": 11.1
+   "name": "Rust",
+   "color": "#dea584",
+   "bytes": 36475,
+   "pct": 2.3
   },
   {
    "name": "PLpgSQL",
    "color": "#336790",
    "bytes": 2180,
-   "pct": 0.2
-  },
-  {
-   "name": "Vue",
-   "color": "#41b883",
-   "bytes": 493,
    "pct": 0.1
   }
  ],

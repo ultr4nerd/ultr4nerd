@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T20:29:59+00:00",
+ "generated_at": "2026-11-21T02:27:21+00:00",
  "user": {
   "login": "ultr4nerd",
   "name": "Mauricio Chavez",
@@ -7,30 +7,26 @@
   "followers": 176
  },
  "totals": {
-  "contributions_all_time": 5725,
-  "contributions_12mo": 3123,
+  "contributions_all_time": 5767,
+  "contributions_12mo": 3165,
   "commits_12mo": 119,
   "prs_12mo": 28,
   "reviews_12mo": 0,
-  "private_12mo": 2968,
+  "private_12mo": 3010,
   "stars": 51,
   "repos": 97,
   "repos_public": 97
  },
  "streak": {
-  "current": 12,
-  "current_start": "2026-11-09",
-  "current_end": "2026-11-20",
+  "current": 0,
+  "current_start": null,
+  "current_end": null,
   "longest": 26,
   "longest_start": "2026-09-28",
   "longest_end": "2026-10-23"
  },
  "weeks": [
   [
-   [
-    "2025-11-20",
-    0
-   ],
    [
     "2025-11-21",
     0
@@ -1555,11 +1551,11 @@
    ],
    [
     "2026-11-11",
-    75
+    87
    ],
    [
     "2026-11-12",
-    106
+    113
    ],
    [
     "2026-11-13",
@@ -1577,7 +1573,7 @@
    ],
    [
     "2026-11-16",
-    37
+    45
    ],
    [
     "2026-11-17",
@@ -1585,20 +1581,24 @@
    ],
    [
     "2026-11-18",
-    51
+    52
    ],
    [
     "2026-11-19",
-    12
+    13
    ],
    [
     "2026-11-20",
-    3
+    16
+   ],
+   [
+    "2026-11-21",
+    0
    ]
   ]
  ],
  "best_week": 369,
- "this_week": 106,
+ "this_week": 129,
  "languages": [
   {
    "name": "JavaScript",
